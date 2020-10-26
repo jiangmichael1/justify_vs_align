@@ -1,13 +1,69 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #e8fdef;
+}
+
+/* FONTS AND TYPOGRAPHY */
+
+h1 {
+    font-size: 6.4rem;
+    font-family: 'Turret Road', cursive;
+
+}
+
+h2 {
+    font-size: 4.8rem;
+}
+
+h3 {
+    font-size: 3.6rem;
+    font-family: 'Turret Road', cursive;
+}
+
+p {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.title {
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.main-axis {
+    display: block;
+    text-align: center;
+}
+
+.cross-axis {
+    display: inline-block;
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    position: sticky;
+}
+
 .parent {
     display: flex;
     border: 2px solid black;
     height: 50vh;
     width: 50vw;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 .child {
     display: flex;
     border: 2px solid blue;
+    margin: 1rem;
+    padding: 1rem;
     height: 20vh;
     width: 20vw;
 }
@@ -23,5 +79,23 @@
 }
 
 li {
-    margin: 10px;
+    display: inline-block;
+    margin: 1rem;
+    padding: 1px 1rem;
+    box-shadow: 2px 4px 4px gray;
+    border-radius: .5rem;
+}
+
+li:hover {
+    background-color: rgba(196, 255, 215, .8);
+    cursor: pointer;
+    transition: all .1s;
+}
+
+li:active {
+    transform: translateY(2px);
+}
+
+.top-list-item {
+    margin-top: -2.5rem;
 }
