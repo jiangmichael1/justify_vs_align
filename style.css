@@ -40,6 +40,45 @@ p {
     text-align: center;
 }
 
+.radio-buttons{
+    display: block;
+    margin-top: -5rem;
+    padding: 3rem;
+    font-size: 1.6rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.justify-list {
+    display: inline-block;
+    list-style: none;
+    margin-top: -2.5rem;
+}
+
+.align-list {
+    display: inline-block;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1px 1rem;
+    box-shadow: 2px 4px 4px gray;
+    border-radius: .5rem;
+}
+
+li:hover {
+    background-color: rgba(196, 255, 215, .8);
+    cursor: pointer;
+    transition: all .1s;
+}
+
+li:active {
+    transform: translateY(2px);
+}
+
+/* AXIS TOGGLE AND DISPLAY */
+
 .main-axis {
     display: block;
     position: fixed;
@@ -60,37 +99,6 @@ p {
     position: fixed;
     transform: translateY(-50%);
 }
-
-.justify-list {
-    display: inline-block;
-    list-style: none;
-    margin-top: -2.5rem;
-}
-
-.align-list {
-    display: inline-block;
-    list-style: none;
-}
-
-
-li {
-    display: inline-block;
-    margin: 1rem;
-    padding: 1px 1rem;
-    box-shadow: 2px 4px 4px gray;
-    border-radius: .5rem;
-}
-
-li:hover {
-    background-color: rgba(196, 255, 215, .8);
-    cursor: pointer;
-    transition: all .1s;
-}
-
-li:active {
-    transform: translateY(2px);
-}
-
 
 
 /* BOX STYLING */
