@@ -95,6 +95,11 @@ li:active {
 
 /* AXIS TOGGLE AND DISPLAY */
 
+.axis-check {
+    display: block;
+    font-size: 2rem;
+}
+
 .main-axis {
     display: block;
     position: fixed;
@@ -103,10 +108,7 @@ li:active {
     text-align: center;
 }
 
-.axis-check {
-    display: block;
-    font-size: 2rem;
-}
+
 
 .cross-axis {
     display: inline-block;
@@ -119,27 +121,37 @@ li:active {
 
 /* BOX STYLING */
 
+.container {
+    margin-top: 5rem;
+    width: 100%;
+    border: 2px solid red;
+}
+
+.container > h3 {
+    padding: 1rem;
+}
+
+.container-text {
+    position: sticky;
+    top: 0;
+}
+
 .parent {
     display: flex;
-    border: 2px solid black;
-    height: 50vh;
-    width: 50vw;
+    border: 2px solid orange;
+   
     margin: 5rem;
     padding: 1rem;
 }
 
-
-
 .child {
-    display: flex;
     border: 2px solid blue;
     margin: 1rem;
     padding: 1rem;
-    height: 20vh;
-    width: 20vw;
 }
 
 .footer {
+    margin-top: 5rem;
     font-size: 1.5rem;
     text-align: center;
     
