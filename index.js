@@ -14,20 +14,6 @@ const alignSelfProp = document.querySelector('#align-self')
 const parentBox = document.querySelector('.parent')
 const childBox = document.querySelector('.child')
 
-justifyList.addEventListener('click', e => {
-    if (e.target === justifyContentProp) {
-        console.log("Justify content clicked")
-    } else if (e.target === justifyItemsProp) {
-        console.log("Justify items clicked")
-    } else if (e.target === justifySelfProp) {
-        console.log("Justify self clicked")
-    } else {
-        console.log(e.target)
-    }
-
-})
-
-
 
 // Toggling Axis Display
 

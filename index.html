@@ -11,9 +11,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@400;700&family=Ubuntu&display=swap" rel="stylesheet">
     </head>
     <body>
+
         <h1 class="title"> Justify or Align? </h1>
+
         <div class="nav">
-            <h3>Select a property to see its effect!</h3>
+
             <p class="step-1"><span class="step">Step 1</span> Select either the parent or the child box.</p>
             <div class="radio-buttons-parent-child">
                 <input type="radio" id="parent-radio" name="select" value="parent">
@@ -21,23 +23,20 @@
                 <input type="radio" id="child-radio" name="select" value="child">
                 <label for="child">Child</label>
             </div>
-            <p class="step-2"><span class="step">Step 2</span> Select the positioning value you want apply.</p>
-            <div class="radio-buttons-position">
-                <input type="radio" id="parent-radio" name="position" value="parent">
-                <label for="parent">Flex-start</label>
-                <input type="radio" id="child-radio" name="position" value="child">
-                <label for="child">Flex-end</label>
-                <input type="radio" id="parent-radio" name="position" value="parent">
-                <label for="parent">Center</label>
-                <input type="radio" id="child-radio" name="position" value="child">
-                <label for="child">Space-between</label>
-                <input type="radio" id="parent-radio" name="position" value="parent">
-                <label for="parent">Space-around</label>
-                <input type="radio" id="child-radio" name="position" value="child">
-                <label for="child">Space-evenly</label>
-            </div>
-            <p class="step-3"><span class="step">Step 3</span> Select the CSS property you want to apply.</p>
 
+            <p class="step-2"><span class="step">Step 2</span> Select the positioning value you want apply.</p>
+            <ul class="positions-list-1">
+                <li id="flex-start"><p>Flex Start</p></li>
+                <li id="center"><p>Center</p></li>
+                <li id="flex-end"><p>Flex End</p></li>
+            </ul>
+            <ul class="positions-list-2">
+                <li id="space-around"><p>Space Around</p></li>
+                <li id="space-between"><p>Space Between</p></li>
+                <li id="space-evenly"><p>Space Evenly</p></li>
+            </ul>
+
+            <p class="step-3"><span class="step">Step 3</span> Select the CSS property you want to apply.</p>
             <ul class="justify-list">
                 <li id="justify-content"><p>Justify Content</p></li>
                 <li id="justify-items"><p>Justify Items</p></li>
@@ -49,10 +48,12 @@
                 <li id="align-items"><p>Align Items</p></li>
                 <li id="align-self"><p>Align Self</p></li>
             </ul>
+
             <label class="axis-check"> 
                 <input type="checkbox" name="axis"  id="axis" checked>
                 Display axis?
             </label>
+
         </div>
         
         <p class="main-axis">↔️ Main Axis ↔️</p>
