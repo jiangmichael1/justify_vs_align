@@ -106,9 +106,8 @@ li:active {
     margin-left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    font-weight: 800;
 }
-
-
 
 .cross-axis {
     display: inline-block;
@@ -116,6 +115,8 @@ li:active {
     writing-mode: vertical-rl;
     position: fixed;
     transform: translateY(-50%);
+    height: 40vh;
+    font-weight: 800;
 }
 
 
@@ -132,21 +133,24 @@ li:active {
 }
 
 .container-text {
-    position: sticky;
-    top: 0;
+    position: absolute;
+    color: red;
 }
 
 .parent {
     display: flex;
     border: 2px solid orange;
-   
+    width: 60vw;
+    height: 25vh;
     margin: 5rem;
     padding: 1rem;
 }
 
 .child {
+    display: flex;
     border: 2px solid blue;
     margin: 1rem;
+    width: 20%;
     padding: 1rem;
 }
 
