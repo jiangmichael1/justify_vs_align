@@ -3,13 +3,30 @@
 const justifyList = document.querySelector('.justify-list')
 const alignList = document.querySelector('.align-list')
 
-const justifyContent = document.querySelector('#justify-content')
-const justifyItems = document.querySelector('#justify-items')
-const justifySelf = document.querySelector('#justify-self')
+const justifyContentProp = document.querySelector('#justify-content')
+const justifyItemsProp = document.querySelector('#justify-items')
+const justifySelfProp = document.querySelector('#justify-self')
 
-const alignContent = document.querySelector('#align-content')
-const alignItems = document.querySelector('#align-items')
-const alignSelf = document.querySelector('#align-self')
+const alignContentProp = document.querySelector('#align-content')
+const alignItemsProp = document.querySelector('#align-items')
+const alignSelfProp = document.querySelector('#align-self')
+
+const parentBox = document.querySelector('.parent')
+const childBox = document.querySelector('.child')
+
+justifyList.addEventListener('click', e => {
+    if (e.target === justifyContentProp) {
+        console.log("Justify content clicked")
+    } else if (e.target === justifyItemsProp) {
+        console.log("Justify items clicked")
+    } else if (e.target === justifySelfProp) {
+        console.log("Justify self clicked")
+    } else {
+        console.log(e.target)
+    }
+
+})
+
 
 
 // Toggling Axis Display

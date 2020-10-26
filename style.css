@@ -34,7 +34,7 @@ p {
     text-align: center;
 }
 
-/* TOP NAVIGATION BUTTONS */
+/* NAVIGATION BUTTONS */
 
 .nav {
     text-align: center;
@@ -64,6 +64,7 @@ p {
 .justify-list {
     display: inline-block;
     list-style: none;
+    margin-top: -2.5rem;
 }
 
 .align-list {
@@ -90,9 +91,7 @@ li:active {
     transform: translateY(2px);
 }
 
-.top-list-item {
-    margin-top: -2.5rem;
-}
+
 
 /* BOX STYLING */
 
@@ -104,6 +103,8 @@ li:active {
     margin: 5rem;
     padding: 1rem;
 }
+
+
 
 .child {
     display: flex;
