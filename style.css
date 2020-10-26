@@ -1,0 +1,27 @@
+.parent {
+    display: flex;
+    border: 2px solid black;
+    height: 50vh;
+    width: 50vw;
+}
+
+.child {
+    display: flex;
+    border: 2px solid blue;
+    height: 20vh;
+    width: 20vw;
+}
+
+.justify-list {
+    display: inline-block;
+    list-style: none;
+}
+
+.align-list {
+    display: inline-block;
+    list-style: none;
+}
+
+li {
+    margin: 10px;
+}
