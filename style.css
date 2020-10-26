@@ -40,18 +40,34 @@ p {
     text-align: center;
 }
 
-.radio-buttons{
+.radio-buttons-parent-child{
+    display: block;
+    padding-bottom: 1rem;
+    font-size: 1.8rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.step {
+    background-color: mediumspringgreen;
+    padding: 2px 4px;
+}
+
+.step-3 {
+    margin-top: -2rem;
+}
+
+.radio-buttons-position {
     display: block;
     margin-top: -5rem;
-    padding: 3rem;
-    font-size: 1.6rem;
+    padding: 5rem;
+    font-size: 1.8rem;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .justify-list {
     display: inline-block;
     list-style: none;
-    margin-top: -2.5rem;
+    margin-top: -.5rem;
 }
 
 .align-list {

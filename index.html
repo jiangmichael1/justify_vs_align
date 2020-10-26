@@ -14,12 +14,30 @@
         <h1 class="title"> Justify or Align? </h1>
         <div class="nav">
             <h3>Select a property to see its effect!</h3>
-            <div class="radio-buttons">
+            <p class="step-1"><span class="step">Step 1</span> Select either the parent or the child box.</p>
+            <div class="radio-buttons-parent-child">
                 <input type="radio" id="parent-radio" name="select" value="parent">
                 <label for="parent">Parent</label>
                 <input type="radio" id="child-radio" name="select" value="child">
                 <label for="child">Child</label>
             </div>
+            <p class="step-2"><span class="step">Step 2</span> Select the positioning value you want apply.</p>
+            <div class="radio-buttons-position">
+                <input type="radio" id="parent-radio" name="position" value="parent">
+                <label for="parent">Flex-start</label>
+                <input type="radio" id="child-radio" name="position" value="child">
+                <label for="child">Flex-end</label>
+                <input type="radio" id="parent-radio" name="position" value="parent">
+                <label for="parent">Center</label>
+                <input type="radio" id="child-radio" name="position" value="child">
+                <label for="child">Space-between</label>
+                <input type="radio" id="parent-radio" name="position" value="parent">
+                <label for="parent">Space-around</label>
+                <input type="radio" id="child-radio" name="position" value="child">
+                <label for="child">Space-evenly</label>
+            </div>
+            <p class="step-3"><span class="step">Step 3</span> Select the positioning value you want apply.</p>
+
             <ul class="justify-list">
                 <li id="justify-content"><p>Justify Content</p></li>
                 <li id="justify-items"><p>Justify Items</p></li>
