@@ -41,6 +41,7 @@ p {
 }
 
 .main-axis {
+    display: block;
     position: fixed;
     margin-left: 50%;
     transform: translateX(-50%);
@@ -93,6 +94,8 @@ li:active {
     margin-top: -2.5rem;
 }
 
+/* BOX STYLING */
+
 .parent {
     display: flex;
     border: 2px solid black;
@@ -109,4 +112,10 @@ li:active {
     padding: 1rem;
     height: 20vh;
     width: 20vw;
+}
+
+.footer {
+    font-size: 1.5rem;
+    text-align: center;
+    
 }
