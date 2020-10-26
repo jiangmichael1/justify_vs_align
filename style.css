@@ -34,38 +34,30 @@ p {
     text-align: center;
 }
 
+/* TOP NAVIGATION BUTTONS */
+
 .nav {
     text-align: center;
 }
 
 .main-axis {
-    display: block;
+    position: fixed;
+    margin-left: 50%;
+    transform: translateX(-50%);
     text-align: center;
+}
+
+.axis-check {
+    display: block;
+    font-size: 2rem;
 }
 
 .cross-axis {
     display: inline-block;
     text-orientation: upright;
-    writing-mode: vertical-lr;
-    position: sticky;
-}
-
-.parent {
-    display: flex;
-    border: 2px solid black;
-    height: 50vh;
-    width: 50vw;
-    margin: 1rem;
-    padding: 1rem;
-}
-
-.child {
-    display: flex;
-    border: 2px solid blue;
-    margin: 1rem;
-    padding: 1rem;
-    height: 20vh;
-    width: 20vw;
+    writing-mode: vertical-rl;
+    position: fixed;
+    transform: translateY(-50%);
 }
 
 .justify-list {
@@ -77,6 +69,7 @@ p {
     display: inline-block;
     list-style: none;
 }
+
 
 li {
     display: inline-block;
@@ -98,4 +91,22 @@ li:active {
 
 .top-list-item {
     margin-top: -2.5rem;
+}
+
+.parent {
+    display: flex;
+    border: 2px solid black;
+    height: 50vh;
+    width: 50vw;
+    margin: 5rem;
+    padding: 1rem;
+}
+
+.child {
+    display: flex;
+    border: 2px solid blue;
+    margin: 1rem;
+    padding: 1rem;
+    height: 20vh;
+    width: 20vw;
 }
