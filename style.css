@@ -85,11 +85,20 @@ li {
     border-radius: .5rem;
 }
 
+
 li:hover {
     background-color: rgba(196, 255, 215, .8);
     cursor: pointer;
     transition: all .1s;
 }
+
+.active {
+    transform: translateY(3px);
+}
+
+
+
+
 
 
 /* AXIS TOGGLE AND DISPLAY */
