@@ -46,9 +46,12 @@ axisCheck.addEventListener('change', function() {
 
 navDiv.addEventListener('click', (e) => {
     if (e.target === flexStartProp){
-        flexStartProp.className = "active-btn"
+        
+        
     }
 })
+
+
 
 
 
