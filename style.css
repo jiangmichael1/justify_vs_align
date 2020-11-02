@@ -97,10 +97,6 @@ li:hover {
 }
 
 
-
-
-
-
 /* AXIS TOGGLE AND DISPLAY */
 
 .axis-check {
@@ -109,21 +105,23 @@ li:hover {
 }
 
 .main-axis {
-    display: block;
+    display: none;
     position: fixed;
     margin-left: 50%;
     transform: translateX(-50%);
     text-align: center;
     font-weight: 800;
+    top: 20vh;
+
 }
 
 .cross-axis {
-    display: inline-block;
+    display: none;
+    top: 35vh;
     text-orientation: upright;
     writing-mode: vertical-rl;
     position: fixed;
     transform: translateY(-50%);
-    height: 40vh;
     font-weight: 800;
 }
 
