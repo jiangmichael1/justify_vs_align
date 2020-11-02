@@ -89,11 +89,12 @@ li {
 li:hover {
     background-color: rgba(196, 255, 215, .8);
     cursor: pointer;
-    transition: all .1s;
+    transition: all .2s;
 }
 
-.active {
+.active-btn {
     transform: translateY(3px);
+    background-color: rgba(96, 201, 129, 0.8);
 }
 
 
