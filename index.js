@@ -46,7 +46,7 @@ axisCheck.addEventListener('change', function() {
 
 navDiv.addEventListener('click', (e) => {
     if (e.target === flexStartProp){
-        
+        console.log("Hello!")
         
     }
 })
